@@ -1,5 +1,65 @@
 [
   {
+    "instruction": "What is stable diffusion?",
+    "input": "",
+    "output": "Stable Diffusion is a deep learning, text-to-image model released in 2022, primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by a text prompt."
+  },
+  {
+    "instruction": "tell me about the training data of stable diffusion.",
+    "input": "",
+    "output": "Stable Diffusion was trained on pairs of images and captions taken from LAION-5B, a publicly available dataset derived from Common Crawl data scraped from the web, where 5 billion image-text pairs were classified based on language and filtered into separate datasets by resolution, a predicted likelihood of containing a watermark, and predicted \"aesthetic\" score (e.g. subjective visual quality). The dataset was created by LAION, a German non-profit which receives funding from Stability AI. The Stable Diffusion model was trained on three subsets of LAION-5B: laion2B-en, laion-high-resolution, and laion-aesthetics v2 5+. A third-party analysis of the model's training data identified that out of a smaller subset of 12 million images taken from the original wider dataset used, approximately 47% of the sample size of images came from 100 different domains, with Pinterest taking up 8.5% of the subset, followed by websites such as WordPress, Blogspot, Flickr, DeviantArt and Wikimedia Commons."
+  },
+  {
+    "instruction": "what are the capabilities of stable diffusion?",
+    "input": "",
+    "output": "The Stable Diffusion model supports the ability to generate new images from scratch through the use of a text prompt describing elements to be included or omitted from the output.[5] Existing images can be re-drawn by the model to incorporate new elements described by a text prompt (a process known as \"guided image synthesis\") through its diffusion-denoising mechanism. In addition, the model also allows the use of prompts to partially alter existing images via inpainting and outpainting, when used with an appropriate user interface that supports such features, of which numerous different open source implementations exist."
+  },
+  {
+    "instruction": "What is LLaMA?",
+    "input": "",
+    "output": "LLaMA is a large language model released by Meta AI in February 2023, consisting of a variety of model sizes ranging from 7 billion to 65 billion parameters, trained on 1.4 trillion tokens from publicly available data sources."
+  },
+  {
+    "instruction": "what means LLaMA?",
+    "input": "",
+    "output": "Large Language Model Meta AI"
+  },
+  {
+    "instruction": "what is the difference between llama and LLaMA?",
+    "input": "",
+    "output": "The main difference between llama and LLaMA is that \"llama\" refers to a domesticated South American camelid that has been used for meat and pack animal purposes for centuries, while \"LLaMA\" is an acronym for \"Large Language Model Meta AI\", a large language model developed by Meta AI that has achieved impressive results on various NLP benchmarks.\n\nWhile the two terms share some similarities in spelling and pronunciation, they refer to very different things: one is a living animal, while the other is a machine learning model."
+  },
+  {
+    "instruction": "What kind of data sources was LLaMA trained on?",
+    "input": "",
+    "output": "LLaMA was trained on 1.4 trillion tokens drawn from publicly available data sources, including webpages scraped by CommonCrawl, open source repositories of source code from GitHub, Wikipedia in 20 different languages, public domain books from Project Gutenberg, and questions and answers from Stack Exchange websites."
+  },
+  {
+    "instruction": "Who developed Stable Diffusion?",
+    "input": "",
+    "output": "Stable Diffusion was developed by the start-up Stability AI in collaboration with academic researchers and non-profit organizations."
+  },
+  {
+    "instruction": "What kind of neural network is Stable Diffusion?",
+    "input": "",
+    "output": "Stable Diffusion is a latent diffusion model, a kind of deep generative neural network."
+  },
+  {
+    "instruction": "Is Stable Diffusion's code and model weights publicly available?",
+    "input": "",
+    "output": "Yes, Stable Diffusion's code and model weights have been released publicly."
+  },
+  {
+    "instruction": "What kind of dataset was Stable Diffusion trained on?",
+    "input": "",
+    "output": "Stable Diffusion was trained on pairs of images and captions taken from LAION-5B, a publicly available dataset derived from Common Crawl data scraped from the web."
+  },
+  {
+    "instruction": "What is LAION-5B?",
+    "input": "",
+    "output": "LAION-5B is a publicly available dataset derived from Common Crawl data scraped from the web, where 5 billion image-text pairs were classified based on language and filtered into separate datasets by resolution, a predicted likelihood of containing a watermark, and predicted \"aesthetic\" score."
+  },
+  {
     "instruction": "Provide a stable diffusion prompt for an artwork featuring women embracing in an Australian apartment.",
     "input": "",
     "output": "\"art in an Australian artist's apartment, portrait of women embracing, organic lines, Australian Aboriginal art, pink and blue hair, lesbian, ikebana, Japanese pottery, sacred feminine, acrylic and spray paint and oilstick on canvas\""
@@ -19639,4 +19699,5 @@
     "input": "",
     "output": "fashion photography of an extraterrestrial model, wearing futuristic hip - hop streetwear fashion, inside berghain, berlin fashion, futuristic fashion, dark minimal outfit, photo 3 5 mm leica, hyperdetail, berghain, 8 k, very detailed"
   }
+
 ]
